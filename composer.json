@@ -1,0 +1,27 @@
+{
+    "name": "draebersnegl/phpserialmodbus",
+    "description": "A very easy-to-use implementation of the Modbus RTU serial protocol in PHP.",
+    "keywords": [
+        "modbus",
+        "rtu",
+        "serial"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "draebersnegl",
+            "email": "mh@goh.dk"
+        }
+    ],
+    "require": {
+        "php": "^5.3.3 || ^7.0 || ^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8.36 || ^7.5.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "Draebersnegl\\PhpSerialModbus\\": "src/"
+        }
+    }
+}
